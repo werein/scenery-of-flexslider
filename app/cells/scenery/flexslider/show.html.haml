@@ -1,0 +1,5 @@
+%section.scenery.flexslider
+  %ul.slides
+    - @flexslider.each do |slide|
+      %li
+        = image_tag slide.image.large

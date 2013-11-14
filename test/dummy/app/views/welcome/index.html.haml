@@ -1,0 +1,18 @@
+%h1 Welcome#index
+%p Find me in app/views/welcome/index.html.haml
+
+%h2 Testing flexslider without cell
+%section.slider
+  .flexslider
+    %ul.slides
+      %li
+        = image_tag 'kitchen_adventurer_cheesecake_brownie.jpg'
+      %li
+        = image_tag 'kitchen_adventurer_lemon.jpg'
+      %li
+        = image_tag 'kitchen_adventurer_donut.jpg'
+      %li
+        = image_tag 'kitchen_adventurer_caramel.jpg'
+
+%h2 Dynamic flexslider from database
+= render_cell 'scenery/flexslider', :show

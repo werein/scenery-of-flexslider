@@ -1,0 +1,1 @@
+require 'scenery/of_flexslider'

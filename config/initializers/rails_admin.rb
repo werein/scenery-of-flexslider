@@ -5,6 +5,7 @@ RailsAdmin.config do |config|
 
   config.model Scenery::Flexslider do
     navigation_icon 'icon-expand'
+    nestable_list true
     field :active
     field :image
     field :translations

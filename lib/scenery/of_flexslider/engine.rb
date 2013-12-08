@@ -3,7 +3,6 @@ require 'globalize'
 require 'enumerize'
 require 'rails_i18n'
 
-require 'uploadable'
 require 'flexslider/rails'
 
 module Scenery

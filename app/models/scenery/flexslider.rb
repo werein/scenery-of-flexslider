@@ -4,9 +4,10 @@ module Scenery
     validates :image, :translations, presence: :true
     accepts_nested_attributes_for :translations, allow_destroy: true
 
-    mount_uploader :image, ::Uploadable::ImageUploader
+    mount_uploader :image, OfFlexslider::Uploader
     store_in_background :image
 
     scope :active, -> { where(active: true) }
+    scope :arrangement, ->{ order('scenery_flexsliders.position ASC') }
   end
 end

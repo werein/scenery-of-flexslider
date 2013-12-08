@@ -2,4 +2,4 @@
   %ul.slides
     - @flexslider.each do |slide|
       %li
-        = image_tag slide.image.large
+        = slide.translation.image? ? image_tag(slide.translation.image) : image_tag(slide.image)

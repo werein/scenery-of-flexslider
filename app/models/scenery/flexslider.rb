@@ -7,7 +7,7 @@ module Scenery
     mount_uploader :image, OfFlexslider::Uploader
     store_in_background :image
 
-    scope :active, -> { where(active: true) }
+    scope :active, -> { where(active: 1) }
     scope :arrangement, ->{ order('scenery_flexsliders.position ASC') }
   end
 end

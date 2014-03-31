@@ -13,5 +13,5 @@ gemspec
 # To use debugger
 # gem 'debugger'
 
-gem 'uploadable', git: 'git@git.imin.cz:project/uploadable.git', branch: 'master'
-gem 'testable', git: 'git@git.imin.cz:project/testable.git', branch: 'master'
+gem 'uploadable', git: 'git@bitbucket.org:werein/uploadable.git', branch: 'master'
+gem 'testable', git: 'git@bitbucket.org:werein/testable.git', branch: 'master'

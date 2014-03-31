@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'rails', '~> 4.0'
   s.add_dependency 'cells', '~> 3.9'
   s.add_dependency 'flexslider-rails', '~> 1.0'
-  s.add_dependency 'globalize', '~> 4.0.0.alpha.2'
+  s.add_dependency 'globalize', '~> 4.0.0'
   s.add_dependency 'globalize-missing', '~> 1.0.0'
   s.add_dependency 'enumerize', '~> 0.7'
   s.add_dependency 'rails-i18n', '~> 4.0'
